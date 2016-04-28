@@ -103,20 +103,5 @@
         </plugins>
     </build>
 
-    <distributionManagement>
-        <!-- use the following if you're not using a snapshot version. -->
-        <repository>
-            <id>repo</id>
-            <name>Netease Maven Repository</name>
-            <url>http://mvn.hz.netease.com/artifactory/libs-releases</url>
-        </repository>
-
-        <!-- use the following if you ARE using a snapshot version. -->
-        <snapshotRepository>
-            <id>snapshots</id>
-            <name>Netease Maven Repository</name>
-            <url>http://mvn.hz.netease.com/artifactory/libs-snapshots</url>
-        </snapshotRepository>
-    </distributionManagement>
 
 </project>
